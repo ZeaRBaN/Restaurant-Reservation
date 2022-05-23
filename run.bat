@@ -1,0 +1,1 @@
+java -jar rest.jar

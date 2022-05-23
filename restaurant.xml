@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restaurant>
+    <users>
+        <user>
+            <name>Adam Smith</name>
+            <role>Manager</role>
+            <username>adam</username>
+            <password>adam_manager</password>
+        </user>
+        <user>
+            <name>John Doe</name>
+            <role>Client</role>
+            <username>john</username>
+            <password>john_doe</password>
+        </user>
+        <user>
+            <name>Brian Johnes</name>
+            <role>Client</role>
+            <username>brian</username>
+            <password>mdir@admj%ar5qX2</password>
+        </user>
+        <user>
+            <name>George Robben</name>
+            <role>Waiter</role>
+            <username>george</username>
+            <password>k6987_#LpQ</password>
+        </user>
+        <user>
+            <name>Tomas Hobbens</name>
+            <role>Cooker</role>
+            <username>hobbens_tom</username>
+            <password>cooker_pass</password>
+        </user>
+    </users>
+    <tables>
+        <table>
+            <number>1</number>
+            <number_of_seats>5</number_of_seats>
+            <smoking>false</smoking>
+            <reserved>false</reserved>
+        </table>
+        <table>
+            <number>2</number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>false</smoking>
+            <reserved>false</reserved>
+        </table>
+        <table>
+            <number>3</number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>false</reserved>
+        </table>
+        <table>
+            <number>4</number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>false</smoking>
+            <reserved>false</reserved>
+        </table>
+        <table>
+            <number>5</number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>false</reserved>
+        </table>
+        <table>
+            <number>6</number>
+            <number_of_seats>7</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>false</reserved>
+        </table>
+        <table>
+            <number>7</number>
+            <number_of_seats>6</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>false</reserved>
+        </table>
+    </tables>
+    <dishes>
+        <dish>
+            <name>Grilled Chicken</name>
+            <price>75.0</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Greek Salade</name>
+            <price>35.0</price>
+            <type>appetizer</type>
+        </dish>
+        <dish>
+            <name>Fried Potatos</name>
+            <price>30.0</price>
+            <type>appetizer</type>
+        </dish>
+        <dish>
+            <name>Apple Pie</name>
+            <price>50.0</price>
+            <type>desert</type>
+        </dish>
+        <dish>
+            <name>Molten Cake</name>
+            <price>60.0</price>
+            <type>desert</type>
+        </dish>
+        <dish>
+            <name>Mushroom Soup</name>
+            <price>60.0</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Beef Steak</name>
+            <price>80.0</price>
+            <type>main_course</type>
+        </dish>
+    </dishes>
+    <customer>
+        <name>John Doe</name>
+        <numberoftable>7</numberoftable>
+        <totalpayment>450.75</totalpayment>
+        <orders>
+            <grilled_chicken>1</grilled_chicken>
+            <greek_salade>1</greek_salade>
+            <fried_potatos>1</fried_potatos>
+            <apple_pie>1</apple_pie>
+            <molten_cake>1</molten_cake>
+            <mushroom_soup>1</mushroom_soup>
+            <beef_steak>1</beef_steak>
+        </orders>
+    </customer>
+    <customer>
+        <name>Brian Johnes</name>
+        <numberoftable>6</numberoftable>
+        <totalpayment>988.0</totalpayment>
+        <orders>
+            <grilled_chicken>2</grilled_chicken>
+            <greek_salade>1</greek_salade>
+            <fried_potatos>0</fried_potatos>
+            <apple_pie>6</apple_pie>
+            <molten_cake>1</molten_cake>
+            <mushroom_soup>1</mushroom_soup>
+            <beef_steak>3</beef_steak>
+        </orders>
+    </customer>
+</restaurant>
